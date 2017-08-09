@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- the socket.io package gives us this route and javascript file
+    automatically -->
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="/app.js"></script>
+  </head>
+
+  <body>
+    <h1>Counter</h1>
+
+    <div>
+      <a id="incrementCounterLink" href="/">Increment Counter</a>
+    </div>
+
+    <h3 id="count">
+      <%= count %>
+    </h3>
+  </body>
+</html>

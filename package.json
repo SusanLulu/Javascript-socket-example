@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "babel-node server.js"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-cli": "^6.24.1"
+  },
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "socket.io": "^1.7.4"
+  }
+}
